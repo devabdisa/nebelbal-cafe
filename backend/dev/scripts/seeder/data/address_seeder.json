@@ -1,0 +1,4131 @@
+[
+  {
+    "name": "Addis Ababa",
+    "name_am": "አዲስ አበባ",
+    "city_zones": [
+      {
+        "name": "Addis Ababa",
+        "name_am": "አዲስ አበባ",
+        "district_subcities": [
+          {
+            "name": "Addis Ketema",
+            "name_am": "አዲስ ከተማ",
+            "woredas": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
+          },
+          {
+            "name": "Gulele",
+            "woredas": ["7", "8", "9", "10", "6", "1", "2", "3", "4", "5"]
+          },
+          {
+            "name": "Lemi Kura",
+            "woredas": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "2", "12", "13", "14", "1"]
+          },
+          {
+            "name": "Kolfe Keranio",
+            "woredas": [
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "2",
+              "1"
+            ]
+          },
+          {
+            "name": "Lideta",
+            "woredas": ["3", "4", "5", "6", "7", "8", "9", "10", "2", "1"]
+          },
+          {
+            "name": "Arada",
+            "woredas": ["4", "5", "3", "6", "7", "8", "9", "10", "1", "2"]
+          },
+          {
+            "name": "Akaki Kality",
+            "woredas": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "2", "1"]
+          },
+          {
+            "name": "Nifas Silk Lafto",
+            "woredas": [
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+              "2",
+              "01 jemo ",
+              "14",
+              "15",
+              "01 lebu "
+            ]
+          },
+          {
+            "name": "Bole",
+            "woredas": ["3", "4", "5", "6", "7", "8", "9", "10", "2", "1", "11", "12", "13", "14"]
+          },
+          {
+            "name": "Yeka",
+            "woredas": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "2", "1", "12"]
+          },
+          {
+            "name": "Kirkos",
+            "woredas": ["3", "4", "5", "6", "7", "8", "9", "10", "2", "1", "11"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Afar",
+    "city_zones": [
+      {
+        "name": "Awsi Rasu(Zone 1)",
+        "district_subcities": [
+          {
+            "name": "Adaar Woreda"
+          },
+          {
+            "name": "Semera City"
+          },
+          {
+            "name": "Asayita Woreda"
+          },
+          {
+            "name": "Ayssaita City Adminstration"
+          },
+          {
+            "name": "Dubti City Adminstration"
+          },
+          {
+            "name": "Kori Woreda"
+          },
+          {
+            "name": "Afambo Woreda"
+          },
+          {
+            "name": "Gereni Woreda"
+          },
+          {
+            "name": "Logia City"
+          },
+          {
+            "name": "Chifra Woreda"
+          },
+          {
+            "name": "Dubti Woreda"
+          },
+          {
+            "name": "Elidar Woreda"
+          },
+          {
+            "name": "Mille Woreda"
+          }
+        ]
+      },
+      {
+        "name": "Kilbet Rasu (Zone 2)",
+        "district_subcities": [
+          {
+            "name": "Abala City Adminstration"
+          },
+          {
+            "name": "Bidu"
+          },
+          {
+            "name": "Dallol"
+          },
+          {
+            "name": "Erebti"
+          },
+          {
+            "name": "Abala Woreda"
+          },
+          {
+            "name": "Afdera Woreda"
+          },
+          {
+            "name": "Koneba Woreda"
+          },
+          {
+            "name": "Megale Woreda"
+          },
+          {
+            "name": "Berhale Woreda"
+          }
+        ]
+      },
+      {
+        "name": "Gabi Rasu(Zone 3)",
+        "district_subcities": [
+          {
+            "name": "Galalo"
+          },
+          {
+            "name": "Hanruka"
+          },
+          {
+            "name": "Awash city "
+          },
+          {
+            "name": "Argoba Special "
+          },
+          {
+            "name": "Amibara"
+          },
+          {
+            "name": "Awash Fentale"
+          },
+          {
+            "name": "Bure Mudaytu"
+          },
+          {
+            "name": "Dulecha"
+          },
+          {
+            "name": "Gewane"
+          }
+        ]
+      },
+      {
+        "name": "Fanti Rasu (Zone 4)",
+        "district_subcities": [
+          {
+            "name": "Aura"
+          },
+          {
+            "name": "Ewa"
+          },
+          {
+            "name": "Gulina"
+          },
+          {
+            "name": "Teru"
+          },
+          {
+            "name": "Yalo"
+          }
+        ]
+      },
+      {
+        "name": "Hari Rasu (Zone 5)",
+        "district_subcities": [
+          {
+            "name": "Dalifage"
+          },
+          {
+            "name": "Dewe"
+          },
+          {
+            "name": "Hadele Ele"
+          },
+          {
+            "name": "Simurobi Gelealo"
+          },
+          {
+            "name": "Telalak"
+          }
+        ]
+      },
+      {
+        "name": "Special woredas",
+        "district_subcities": [
+          {
+            "name": "Argobba"
+          }
+        ]
+      },
+      {
+        "name": "Zone 6",
+        "district_subcities": [
+          {
+            "name": "Gerane"
+          },
+          {
+            "name": "Kilalu"
+          },
+          {
+            "name": "Yangudi"
+          },
+          {
+            "name": "Abida"
+          },
+          {
+            "name": "Logia Semera"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Amhara",
+    "city_zones": [
+      {
+        "name": "Agew Awi Zone",
+        "district_subcities": [
+          {
+            "name": "Ayehu Guagusa"
+          },
+          {
+            "name": "Chagni Town"
+          },
+          {
+            "name": "Injibara Town"
+          },
+          {
+            "name": "Zigem"
+          },
+          {
+            "name": "Dangla Zuria"
+          },
+          {
+            "name": "Guangua"
+          },
+          {
+            "name": "Ankasha Guagusa"
+          },
+          {
+            "name": "Banja Shekudad"
+          },
+          {
+            "name": "Dangila"
+          },
+          {
+            "name": "Faggeta Lekoma"
+          },
+          {
+            "name": "Guagusa Shekudad"
+          },
+          {
+            "name": "Jawi"
+          }
+        ]
+      },
+      {
+        "name": "East Gojjam Zone",
+        "district_subcities": [
+          {
+            "name": "Bichena Ketema Astedader"
+          },
+          {
+            "name": "Motta Town"
+          },
+          {
+            "name": "Sede"
+          },
+          {
+            "name": "Aneded"
+          },
+          {
+            "name": "Awabel"
+          },
+          {
+            "name": "Baso Liben"
+          },
+          {
+            "name": "Bibugn"
+          },
+          {
+            "name": "Debay Telatgen"
+          },
+          {
+            "name": "Debre Elias"
+          },
+          {
+            "name": "Debre Markos Town"
+          },
+          {
+            "name": "Dejen"
+          },
+          {
+            "name": "Enarj Enawga"
+          },
+          {
+            "name": "Enbise Sar Midir"
+          },
+          {
+            "name": "Enemay"
+          },
+          {
+            "name": "Goncha"
+          },
+          {
+            "name": "Goncha Siso Enese"
+          },
+          {
+            "name": "Gozamin"
+          },
+          {
+            "name": "Hulet Ej Enese"
+          },
+          {
+            "name": "Machakel"
+          },
+          {
+            "name": "Shebel Berenta"
+          },
+          {
+            "name": "Sinan"
+          }
+        ]
+      },
+      {
+        "name": "North Gondar Zone",
+        "district_subcities": [
+          {
+            "name": "Addi Arkay"
+          },
+          {
+            "name": "Alefa"
+          },
+          {
+            "name": "Beyeda"
+          },
+          {
+            "name": "Chilga"
+          },
+          {
+            "name": "Dabat"
+          },
+          {
+            "name": "Debarq"
+          },
+          {
+            "name": "Dembiya"
+          },
+          {
+            "name": "Gondar Town"
+          },
+          {
+            "name": "Gondar Zuria"
+          },
+          {
+            "name": "Jan Amora"
+          },
+          {
+            "name": "Lay Armachiho"
+          },
+          {
+            "name": "Metemma"
+          },
+          {
+            "name": "Mirab Armachiho"
+          },
+          {
+            "name": "Mirab Belessa"
+          },
+          {
+            "name": "Misraq Belessa"
+          },
+          {
+            "name": "Qwara"
+          },
+          {
+            "name": "STach Armachiho"
+          },
+          {
+            "name": "Takusa"
+          },
+          {
+            "name": "Tegeda"
+          },
+          {
+            "name": "Tselemt"
+          },
+          {
+            "name": "Wegera"
+          }
+        ]
+      },
+      {
+        "name": "North Shewa Zone",
+        "district_subcities": [
+          {
+            "name": "shewarobit town"
+          },
+          {
+            "name": "Ataye Town Administration"
+          },
+          {
+            "name": "Eenewari Town Adminstration"
+          },
+          {
+            "name": "Arerti Town Administration"
+          },
+          {
+            "name": "Molale Town Administration"
+          },
+          {
+            "name": "Debre sina Town Adminstration"
+          },
+          {
+            "name": "Mehalmeda"
+          },
+          {
+            "name": "Alemketema Town Adminstration"
+          },
+          {
+            "name": "Bulga Town Administration"
+          },
+          {
+            "name": "Angolalla Tera"
+          },
+          {
+            "name": "Ankober"
+          },
+          {
+            "name": "Antsokiyana Gemza"
+          },
+          {
+            "name": "Asagirt"
+          },
+          {
+            "name": "Basona Werana"
+          },
+          {
+            "name": "Berehet"
+          },
+          {
+            "name": "Debre Birhan Town"
+          },
+          {
+            "name": "Efratana Gidim"
+          },
+          {
+            "name": "Ensaro"
+          },
+          {
+            "name": "Gishe"
+          },
+          {
+            "name": "Hagere Mariamna Kesem"
+          },
+          {
+            "name": "Kewet"
+          },
+          {
+            "name": "Menjarna Shenkora"
+          },
+          {
+            "name": "Menz Gera Midir"
+          },
+          {
+            "name": "Menz Keya Gebreal"
+          },
+          {
+            "name": "Menz Lalo Midir"
+          },
+          {
+            "name": "Menz Mam Midir"
+          },
+          {
+            "name": "Merhabete"
+          },
+          {
+            "name": "Mida Woremo"
+          },
+          {
+            "name": "Mojana Wadera"
+          },
+          {
+            "name": "Moretna Jiru"
+          },
+          {
+            "name": "Siyadebrina Wayu"
+          },
+          {
+            "name": "Termaber"
+          }
+        ]
+      },
+      {
+        "name": "North Wollo Zone",
+        "district_subcities": [
+          {
+            "name": "Mersa Ketema Astedader"
+          },
+          {
+            "name": "Gazo"
+          },
+          {
+            "name": "Angot"
+          },
+          {
+            "name": "Bugna"
+          },
+          {
+            "name": "Dawunt"
+          },
+          {
+            "name": "Delanta"
+          },
+          {
+            "name": "Gidan"
+          },
+          {
+            "name": "Guba Lafto"
+          },
+          {
+            "name": "Habru"
+          },
+          {
+            "name": "Kobo"
+          },
+          {
+            "name": "Lasta"
+          },
+          {
+            "name": "Meket"
+          },
+          {
+            "name": "Wadla"
+          },
+          {
+            "name": "Weldiya Town"
+          },
+          {
+            "name": "Lalibela Ketema Astedader"
+          },
+          {
+            "name": "Raya Kobo"
+          }
+        ]
+      },
+      {
+        "name": "Oromia Zone",
+        "district_subcities": [
+          {
+            "name": "Artuma Fursi"
+          },
+          {
+            "name": "Baati"
+          },
+          {
+            "name": "Dawa Chaffa"
+          },
+          {
+            "name": "Dawa Harewa"
+          },
+          {
+            "name": "Jilee Dhummuugaa"
+          },
+          {
+            "name": "Kemise Town"
+          }
+        ]
+      },
+      {
+        "name": "South Gondar Zone",
+        "district_subcities": [
+          {
+            "name": "Woreta"
+          },
+          {
+            "name": "Mekane Eyesus"
+          },
+          {
+            "name": "Meketewa"
+          },
+          {
+            "name": "Estie"
+          },
+          {
+            "name": "Sedie Muja"
+          },
+          {
+            "name": "Addis Zemen"
+          },
+          {
+            "name": "Nifas Mewcha"
+          },
+          {
+            "name": "Debre Tabor Town"
+          },
+          {
+            "name": "Dera"
+          },
+          {
+            "name": "Ebenat"
+          },
+          {
+            "name": "Farta"
+          },
+          {
+            "name": "Fogera"
+          },
+          {
+            "name": "Lay Gayint"
+          },
+          {
+            "name": "Libo Kemekem"
+          },
+          {
+            "name": "Mirab Este"
+          },
+          {
+            "name": "Misraq Este"
+          },
+          {
+            "name": "Simada"
+          },
+          {
+            "name": "Tach Gayint"
+          },
+          {
+            "name": "Guna Begie Midir"
+          }
+        ]
+      },
+      {
+        "name": "South Wollo Zone",
+        "district_subcities": [
+          {
+            "name": "Argoba Liyu"
+          },
+          {
+            "name": "Saynt Adjibar"
+          },
+          {
+            "name": "Haik"
+          },
+          {
+            "name": "Abuko"
+          },
+          {
+            "name": "Amba Sel"
+          },
+          {
+            "name": "Debre Sina"
+          },
+          {
+            "name": "Dessie Town"
+          },
+          {
+            "name": "Dessie Zuria"
+          },
+          {
+            "name": "Jama"
+          },
+          {
+            "name": "Kalu"
+          },
+          {
+            "name": "Kelela"
+          },
+          {
+            "name": "Kombolcha Town"
+          },
+          {
+            "name": "Kutaber"
+          },
+          {
+            "name": "Legahida"
+          },
+          {
+            "name": "Legambo"
+          },
+          {
+            "name": "Magdala"
+          },
+          {
+            "name": "Mehal Sayint"
+          },
+          {
+            "name": "Sayint"
+          },
+          {
+            "name": "Tehuledere"
+          },
+          {
+            "name": "Tenta"
+          },
+          {
+            "name": "Wegde"
+          },
+          {
+            "name": "Were Babu"
+          },
+          {
+            "name": "Were Ilu"
+          },
+          {
+            "name": "Mekane Selam Ketema Astedader"
+          }
+        ]
+      },
+      {
+        "name": "Wag Hemra Zone",
+        "district_subcities": [
+          {
+            "name": "Adet Town Administration"
+          },
+          {
+            "name": "Abergele"
+          },
+          {
+            "name": "Dehana"
+          },
+          {
+            "name": "Gazbibla"
+          },
+          {
+            "name": "Sehala"
+          },
+          {
+            "name": "Soqota"
+          },
+          {
+            "name": "Soqota Town"
+          },
+          {
+            "name": "Zikuala"
+          },
+          {
+            "name": "Burie Zuria"
+          }
+        ]
+      },
+      {
+        "name": "West Gojjam Zone",
+        "district_subcities": [
+          {
+            "name": "Bahir Dar Zuria"
+          },
+          {
+            "name": "Bure"
+          },
+          {
+            "name": "Dega Damot"
+          },
+          {
+            "name": "Debub Achefer"
+          },
+          {
+            "name": "Dembecha"
+          },
+          {
+            "name": "Jabi Tehnan"
+          },
+          {
+            "name": "Finote Selam Town"
+          },
+          {
+            "name": "Kuarit"
+          },
+          {
+            "name": "Mecha"
+          },
+          {
+            "name": "Sekela"
+          },
+          {
+            "name": "Semien Achefer"
+          },
+          {
+            "name": "Wemberma"
+          },
+          {
+            "name": "Yilmana Densa"
+          }
+        ]
+      },
+      {
+        "name": "Special zones",
+        "district_subcities": [
+          {
+            "name": "Bahir Dar"
+          }
+        ]
+      },
+      {
+        "name": "Special woredas",
+        "district_subcities": [
+          {
+            "name": "Argoba"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Benishangul-Gumuz",
+    "city_zones": [
+      {
+        "name": "Asosa Zone",
+        "district_subcities": [
+          {
+            "name": "Woreda And"
+          },
+          {
+            "name": "Abrahamo Woreda"
+          },
+          {
+            "name": "undulu Woreda"
+          },
+          {
+            "name": "Ura Woreda"
+          },
+          {
+            "name": "Asosa"
+          },
+          {
+            "name": "Bambasi"
+          },
+          {
+            "name": "Komesha"
+          },
+          {
+            "name": "Kurmuk"
+          },
+          {
+            "name": "Menge"
+          },
+          {
+            "name": "Oda Buldigilu"
+          },
+          {
+            "name": "Sherkole"
+          },
+          {
+            "name": "Woreda Hulet"
+          }
+        ]
+      },
+      {
+        "name": "Kamashi Zone",
+        "district_subcities": [
+          {
+            "name": "Dambe woreda"
+          },
+          {
+            "name": "Zay Woreda"
+          },
+          {
+            "name": "Mizhiga Woreda"
+          },
+          {
+            "name": "Sedal Woreda"
+          },
+          {
+            "name": "Agalo Mite"
+          },
+          {
+            "name": "Belo Jegonfoy"
+          },
+          {
+            "name": "Kamashi"
+          },
+          {
+            "name": "Sirba Abbay"
+          },
+          {
+            "name": "Yaso"
+          }
+        ]
+      },
+      {
+        "name": "Metekel Zone",
+        "district_subcities": [
+          {
+            "name": "Pawe"
+          },
+          {
+            "name": "Bulen"
+          },
+          {
+            "name": "Dangur"
+          },
+          {
+            "name": "Dibate"
+          },
+          {
+            "name": "Guba"
+          },
+          {
+            "name": "Mandura"
+          },
+          {
+            "name": "Wenbera"
+          }
+        ]
+      },
+      {
+        "name": "Special woredas",
+        "district_subcities": [
+          {
+            "name": "Pawi Woreda"
+          },
+          {
+            "name": "Mao-Komo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Central Ethiopia Region",
+    "city_zones": [
+      {
+        "name": "Gurage Zone",
+        "district_subcities": [
+          {
+            "name": "Emdibir Town "
+          },
+          {
+            "name": "Enor Enner"
+          },
+          {
+            "name": "Gunchire Town "
+          },
+          {
+            "name": "Gedebano Gutazar Welene"
+          },
+          {
+            "name": "Misrak Meskan"
+          },
+          {
+            "name": "Eneseno Ketema Astedader"
+          },
+          {
+            "name": "Debub Sodo"
+          },
+          {
+            "name": "Kabena"
+          },
+          {
+            "name": "Arekit-Ketema"
+          },
+          {
+            "name": "Butajira Ketema Astedader"
+          },
+          {
+            "name": "Enemor Ena Ener"
+          },
+          {
+            "name": "Abeshge"
+          },
+          {
+            "name": "Cheha"
+          },
+          {
+            "name": "Endegagn"
+          },
+          {
+            "name": "Enemorina Eaner"
+          },
+          {
+            "name": "Ezha"
+          },
+          {
+            "name": "Geta"
+          },
+          {
+            "name": "Gumer"
+          },
+          {
+            "name": "Buee Ketema Astedader"
+          },
+          {
+            "name": "Agena-Town-Administration"
+          },
+          {
+            "name": "Kokir Gedebano"
+          },
+          {
+            "name": "Muhor Na Aklil"
+          },
+          {
+            "name": "Welkite Town"
+          }
+        ]
+      },
+      {
+        "name": "Hadiya Zone",
+        "district_subcities": [
+          {
+            "name": "Ameka"
+          },
+          {
+            "name": "Gimbichau Town"
+          },
+          {
+            "name": "Jajura Town"
+          },
+          {
+            "name": "Mirab Soro"
+          },
+          {
+            "name": "Shone Town "
+          },
+          {
+            "name": "Siraro Badewacho"
+          },
+          {
+            "name": "Fonko Town Administration"
+          },
+          {
+            "name": "Wera Dijo"
+          },
+          {
+            "name": "Halaba Kulito"
+          },
+          {
+            "name": "Atote Ule"
+          },
+          {
+            "name": "Siraro Badowoch"
+          },
+          {
+            "name": "Ana Lemo"
+          },
+          {
+            "name": "Duna"
+          },
+          {
+            "name": "Gibe"
+          },
+          {
+            "name": "Gomibora"
+          },
+          {
+            "name": "Hosaena Town"
+          },
+          {
+            "name": "Limo"
+          },
+          {
+            "name": "Mirab Badawacho"
+          },
+          {
+            "name": "Misha"
+          },
+          {
+            "name": "Misraq Badawacho"
+          },
+          {
+            "name": "Shashogo"
+          },
+          {
+            "name": "Soro"
+          }
+        ]
+      },
+      {
+        "name": "Silte Zone",
+        "district_subcities": [
+          {
+            "name": "Hulbereg"
+          },
+          {
+            "name": "East silti"
+          },
+          {
+            "name": "Kibet town "
+          },
+          {
+            "name": "Mitto"
+          },
+          {
+            "name": "Tora town "
+          },
+          {
+            "name": "Worabe Town "
+          },
+          {
+            "name": "Worabe Town Adminstration"
+          },
+          {
+            "name": "Alem Gebeya Ketema Astedader"
+          },
+          {
+            "name": "Misrak Silite"
+          },
+          {
+            "name": "Halicho Wiriroo"
+          },
+          {
+            "name": "Alicho Werero"
+          },
+          {
+            "name": "Dalocha"
+          },
+          {
+            "name": "Lanfro"
+          },
+          {
+            "name": "Mirab Azernet Berbere"
+          },
+          {
+            "name": "Misraq Azernet Berbere"
+          },
+          {
+            "name": "Sankurra"
+          },
+          {
+            "name": "Silte"
+          },
+          {
+            "name": "Wulbareg"
+          }
+        ]
+      },
+      {
+        "name": "Kembata zone",
+        "district_subcities": [
+          {
+            "name": "Adilo Zuria WoHo"
+          },
+          {
+            "name": "Hadero Town "
+          },
+          {
+            "name": "Shinshicho Town "
+          },
+          {
+            "name": "Damboya"
+          },
+          {
+            "name": "Doyogena"
+          },
+          {
+            "name": "Durame Town"
+          },
+          {
+            "name": "Hadero Tunto"
+          },
+          {
+            "name": "Kacha Bira"
+          },
+          {
+            "name": "Kedida Gamela"
+          },
+          {
+            "name": "Angacha"
+          }
+        ]
+      },
+      {
+        "name": "Yemi zone",
+        "district_subcities": [
+          {
+            "name": "Fofa"
+          },
+          {
+            "name": "Derisaja zuria"
+          },
+          {
+            "name": "Saja town"
+          },
+          {
+            "name": "Toba"
+          }
+        ]
+      },
+      {
+        "name": "Misrak Gurage Zone",
+        "district_subcities": [
+          {
+            "name": "Buee Town "
+          },
+          {
+            "name": "South Sodo"
+          },
+          {
+            "name": "East Meskan"
+          },
+          {
+            "name": "Butajira Town"
+          },
+          {
+            "name": "Soddo"
+          },
+          {
+            "name": "Enseno town"
+          },
+          {
+            "name": "Meskane"
+          }
+        ]
+      },
+      {
+        "name": "Halaba Zone",
+        "district_subcities": [
+          {
+            "name": "Atoti Ulo Woreda"
+          },
+          {
+            "name": "Halaba Kulito City "
+          },
+          {
+            "name": "Wera Dijo Woreda"
+          },
+          {
+            "name": "Wera Woreda"
+          }
+        ]
+      },
+      {
+        "name": "Tembaro liyu woreda",
+        "district_subcities": [
+          {
+            "name": "Hadaro Tunto"
+          },
+          {
+            "name": "Tembaro"
+          },
+          {
+            "name": "Mudula town"
+          }
+        ]
+      },
+      {
+        "name": "Mareko liyu woreda",
+        "district_subcities": [
+          {
+            "name": "Mareko"
+          }
+        ]
+      },
+      {
+        "name": "Kebena liyu woreda",
+        "district_subcities": [
+          {
+            "name": "Kebena"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dire Dawa",
+    "city_zones": [
+      {
+        "name": "Dire Dawa",
+        "district_subcities": [
+          {
+            "name": "Dire Dawa",
+            "woredas": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "Biyo Awale",
+              "Wahil",
+              "Jeldes",
+              "Aseliso"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gambela",
+    "city_zones": [
+      {
+        "name": "Anuak Zone",
+        "district_subcities": [
+          {
+            "name": "Abobo"
+          },
+          {
+            "name": "Dimma"
+          },
+          {
+            "name": "Gambela"
+          },
+          {
+            "name": "Gog"
+          },
+          {
+            "name": "Jor"
+          },
+          {
+            "name": "Gambela Zuriya"
+          }
+        ]
+      },
+      {
+        "name": "Nuer Zone",
+        "district_subcities": [
+          {
+            "name": "Makuey"
+          },
+          {
+            "name": "Akobo"
+          },
+          {
+            "name": "Jikawo"
+          },
+          {
+            "name": "Lare"
+          },
+          {
+            "name": "Wentawo"
+          }
+        ]
+      },
+      {
+        "name": "Mezhenger Zone",
+        "district_subcities": [
+          {
+            "name": "Godere"
+          },
+          {
+            "name": "Mengesh"
+          }
+        ]
+      },
+      {
+        "name": "Special woredas",
+        "district_subcities": [
+          {
+            "name": "Itang"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Harari",
+    "city_zones": [
+      {
+        "name": "Harer",
+        "district_subcities": [
+          {
+            "name": "Amir-Nur"
+          },
+          {
+            "name": "Abadir"
+          },
+          {
+            "name": "Shenkor"
+          },
+          {
+            "name": "JinEala"
+          },
+          {
+            "name": "Aboker"
+          },
+          {
+            "name": "Hakim"
+          },
+          {
+            "name": "Sofi"
+          },
+          {
+            "name": "Erer"
+          },
+          {
+            "name": "Dire-Teyara"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Oromia",
+    "city_zones": [
+      {
+        "name": "Arsi Zone",
+        "district_subcities": [
+          {
+            "name": "Bokeji Town"
+          },
+          {
+            "name": "Shanan Kolu"
+          },
+          {
+            "name": "Ziway Dugda"
+          },
+          {
+            "name": "Zewaydugda"
+          },
+          {
+            "name": "Lodehitosa"
+          },
+          {
+            "name": "Aminya"
+          },
+          {
+            "name": "Aseko"
+          },
+          {
+            "name": "Asella Town"
+          },
+          {
+            "name": "Bale Gasegar"
+          },
+          {
+            "name": "Batu Dugda"
+          },
+          {
+            "name": "Chole"
+          },
+          {
+            "name": "Digeluna Tijo"
+          },
+          {
+            "name": "Diksis"
+          },
+          {
+            "name": "Dodota"
+          },
+          {
+            "name": "Enkelo Wabe"
+          },
+          {
+            "name": "Gololcha"
+          },
+          {
+            "name": "Guna"
+          },
+          {
+            "name": "Hitosa"
+          },
+          {
+            "name": "Jeju"
+          },
+          {
+            "name": "Limuna Bilbilo"
+          },
+          {
+            "name": "Lude Hitosa"
+          },
+          {
+            "name": "Merti"
+          },
+          {
+            "name": "Munesa"
+          },
+          {
+            "name": "Robe"
+          },
+          {
+            "name": "Seru"
+          },
+          {
+            "name": "Sire"
+          },
+          {
+            "name": "Sherka"
+          },
+          {
+            "name": "Sude"
+          },
+          {
+            "name": "Tena"
+          },
+          {
+            "name": "Tiyo"
+          }
+        ]
+      },
+      {
+        "name": "Bale Zone",
+        "district_subcities": [
+          {
+            "name": "Agarfa"
+          },
+          {
+            "name": "Berbere"
+          },
+          {
+            "name": "Dawe Kachen"
+          },
+          {
+            "name": "Dawe Serara"
+          },
+          {
+            "name": "Delo Menna"
+          },
+          {
+            "name": "Dinsho"
+          },
+          {
+            "name": "Gasera"
+          },
+          {
+            "name": "Ginir"
+          },
+          {
+            "name": "Goba"
+          },
+          {
+            "name": "Goba Town"
+          },
+          {
+            "name": "Goro"
+          },
+          {
+            "name": "Guradamole"
+          },
+          {
+            "name": "Harena Buluk"
+          },
+          {
+            "name": "Legehida"
+          },
+          {
+            "name": "Meda Welabu"
+          },
+          {
+            "name": "Raytu"
+          },
+          {
+            "name": "Robe Town"
+          },
+          {
+            "name": "Seweyna"
+          },
+          {
+            "name": "Sinana"
+          },
+          {
+            "name": "Abaya"
+          },
+          {
+            "name": "Arero"
+          },
+          {
+            "name": "Bule Hora"
+          },
+          {
+            "name": "Dillo"
+          },
+          {
+            "name": "Dire"
+          },
+          {
+            "name": "Dugda Dawa"
+          },
+          {
+            "name": "Gelana"
+          },
+          {
+            "name": "Gomole"
+          },
+          {
+            "name": "Malka Soda"
+          },
+          {
+            "name": "Miyu"
+          },
+          {
+            "name": "Moyale"
+          },
+          {
+            "name": "Teltele"
+          },
+          {
+            "name": "Yabelo"
+          }
+        ]
+      },
+      {
+        "name": "Buno Bedele Zone",
+        "district_subcities": [
+          {
+            "name": "Bedele"
+          },
+          {
+            "name": "Bedele Town"
+          },
+          {
+            "name": "Borecha"
+          },
+          {
+            "name": "Chewaka"
+          },
+          {
+            "name": "Chora"
+          },
+          {
+            "name": "Dabo Hana"
+          },
+          {
+            "name": "Dedesa"
+          },
+          {
+            "name": "Dega"
+          },
+          {
+            "name": "Gechi"
+          },
+          {
+            "name": "Meko"
+          }
+        ]
+      },
+      {
+        "name": "East Hararghe zone",
+        "district_subcities": [
+          {
+            "name": "Aweday Town"
+          },
+          {
+            "name": "Haromaya"
+          },
+          {
+            "name": "Kumbi"
+          },
+          {
+            "name": "Goro Muti"
+          },
+          {
+            "name": "Babile"
+          },
+          {
+            "name": "Badeno"
+          },
+          {
+            "name": "Chinaksen"
+          },
+          {
+            "name": "Dadar"
+          },
+          {
+            "name": "Fedis"
+          },
+          {
+            "name": "Girawa"
+          },
+          {
+            "name": "Gola Oda"
+          },
+          {
+            "name": "Goro Gutu"
+          },
+          {
+            "name": "Gursum"
+          },
+          {
+            "name": "Haro Maya"
+          },
+          {
+            "name": "Jarso"
+          },
+          {
+            "name": "Kersa"
+          },
+          {
+            "name": "Kombolcha"
+          },
+          {
+            "name": "Kurfa Chele"
+          },
+          {
+            "name": "Malka Balo"
+          },
+          {
+            "name": "Meyumuluke"
+          },
+          {
+            "name": "Meta"
+          },
+          {
+            "name": "Midega Tola"
+          }
+        ]
+      },
+      {
+        "name": "East Shewa Zone",
+        "district_subcities": [
+          {
+            "name": "Adaa"
+          },
+          {
+            "name": "Adami Tullu and Jido Kombolcha"
+          },
+          {
+            "name": "Batu town"
+          },
+          {
+            "name": "Bishoftu"
+          },
+          {
+            "name": "Bora"
+          },
+          {
+            "name": "Boset"
+          },
+          {
+            "name": "Dugda"
+          },
+          {
+            "name": "Fentale"
+          },
+          {
+            "name": "Gimbichu"
+          },
+          {
+            "name": "Liben"
+          },
+          {
+            "name": "Lome"
+          },
+          {
+            "name": "Nannawa Adama"
+          }
+        ]
+      },
+      {
+        "name": "East Welega Zone",
+        "district_subcities": [
+          {
+            "name": "Kiramu"
+          },
+          {
+            "name": "Anger Gute Town"
+          },
+          {
+            "name": "Gida Ayana"
+          },
+          {
+            "name": "Bonaya Boshe"
+          },
+          {
+            "name": "Diga"
+          },
+          {
+            "name": "Gida Kiremu"
+          },
+          {
+            "name": "Gobu Seyo"
+          },
+          {
+            "name": "Gudeya Bila"
+          },
+          {
+            "name": "Guto Gida"
+          },
+          {
+            "name": "Haro Limmu"
+          },
+          {
+            "name": "Ibantu"
+          },
+          {
+            "name": "Jimma Arjo"
+          },
+          {
+            "name": "Leka Dulecha"
+          },
+          {
+            "name": "Limmu"
+          },
+          {
+            "name": "Nekemte"
+          },
+          {
+            "name": "Nunu Kumba"
+          },
+          {
+            "name": "Sasiga"
+          },
+          {
+            "name": "Sibu Sire"
+          },
+          {
+            "name": "Wama Hagalo"
+          },
+          {
+            "name": "Wayu Tuka"
+          }
+        ]
+      },
+      {
+        "name": "Guji Zone",
+        "district_subcities": [
+          {
+            "name": "Aga Wayyu"
+          },
+          {
+            "name": "Goro Dola"
+          },
+          {
+            "name": "Gumi Eldalo"
+          },
+          {
+            "name": "Haro Walabu"
+          },
+          {
+            "name": "Saba Boru"
+          },
+          {
+            "name": "Negele Ketema Astedader"
+          },
+          {
+            "name": "Shakiso Ketema Astedader"
+          },
+          {
+            "name": "Holeta"
+          },
+          {
+            "name": "Adola"
+          },
+          {
+            "name": "Adola Town"
+          },
+          {
+            "name": "Ana Sora"
+          },
+          {
+            "name": "Bore"
+          },
+          {
+            "name": "Dima"
+          },
+          {
+            "name": "Girja"
+          },
+          {
+            "name": "Hambela Wamena"
+          },
+          {
+            "name": "Harenfema"
+          },
+          {
+            "name": "Kercha"
+          },
+          {
+            "name": "Negele Borana"
+          },
+          {
+            "name": "Odo Shakiso"
+          },
+          {
+            "name": "Uraga"
+          },
+          {
+            "name": "Wadera"
+          }
+        ]
+      },
+      {
+        "name": "Horo Guduru Welega zone",
+        "district_subcities": [
+          {
+            "name": "Botor Tolay"
+          },
+          {
+            "name": "Mencho"
+          },
+          {
+            "name": "Nedhi Gibe"
+          },
+          {
+            "name": "Nono Benja"
+          },
+          {
+            "name": "Omo Beyem"
+          },
+          {
+            "name": "Horo Buluk"
+          },
+          {
+            "name": "Chemon Guduru"
+          },
+          {
+            "name": "Abay Chomen"
+          },
+          {
+            "name": "Abe Dongoro"
+          },
+          {
+            "name": "Amuru"
+          },
+          {
+            "name": "Guduru"
+          },
+          {
+            "name": "Hababo Guduru"
+          },
+          {
+            "name": "Horo"
+          },
+          {
+            "name": "Jardega Jarte"
+          },
+          {
+            "name": "Jimma Genete"
+          },
+          {
+            "name": "Jimma Rare"
+          },
+          {
+            "name": "Shambu Town"
+          }
+        ]
+      },
+      {
+        "name": "Illubabor Zone",
+        "district_subcities": [
+          {
+            "name": "Ale"
+          },
+          {
+            "name": "Alge Sache"
+          },
+          {
+            "name": "Bedele Zuria"
+          },
+          {
+            "name": "Bicho"
+          },
+          {
+            "name": "Bilo Nopha"
+          },
+          {
+            "name": "Darimu"
+          },
+          {
+            "name": "Didessa"
+          },
+          {
+            "name": "Didu"
+          },
+          {
+            "name": "Doreni"
+          },
+          {
+            "name": "Huka Halu"
+          },
+          {
+            "name": "Hurumu"
+          },
+          {
+            "name": "Mako"
+          },
+          {
+            "name": "Metu Zuria"
+          },
+          {
+            "name": "Metu Town"
+          },
+          {
+            "name": "Nono Sele"
+          },
+          {
+            "name": "Supena Sodo"
+          },
+          {
+            "name": "Yayu"
+          }
+        ]
+      },
+      {
+        "name": "Jimma Zone",
+        "district_subcities": [
+          {
+            "name": "Boter Tolay"
+          },
+          {
+            "name": "Asandabo"
+          },
+          {
+            "name": "Jimma Town"
+          },
+          {
+            "name": "Agaro Town"
+          },
+          {
+            "name": "Chora Botor"
+          },
+          {
+            "name": "Dedo"
+          },
+          {
+            "name": "Gera"
+          },
+          {
+            "name": "Gomma"
+          },
+          {
+            "name": "Guma"
+          },
+          {
+            "name": "Limmu Sakka"
+          },
+          {
+            "name": "Limmu Kosa"
+          },
+          {
+            "name": "Mana"
+          },
+          {
+            "name": "Omo Nada"
+          },
+          {
+            "name": "Seka Chekorsa"
+          },
+          {
+            "name": "Setema"
+          },
+          {
+            "name": "Shebe Senbo"
+          },
+          {
+            "name": "Sigmo"
+          },
+          {
+            "name": "Sokoru"
+          },
+          {
+            "name": "Tiro Afeta"
+          }
+        ]
+      },
+      {
+        "name": "Kelam Welega Zone",
+        "district_subcities": [
+          {
+            "name": "Saden Chanka"
+          },
+          {
+            "name": "Chanka Woreda"
+          },
+          {
+            "name": "Anfillo"
+          },
+          {
+            "name": "Dale Sedi"
+          },
+          {
+            "name": "Dale Wabera"
+          },
+          {
+            "name": "Dembidolo Town"
+          },
+          {
+            "name": "Gawo Kebe"
+          },
+          {
+            "name": "Gidami"
+          },
+          {
+            "name": "Hawa Gelan"
+          },
+          {
+            "name": "Jimma Horo"
+          },
+          {
+            "name": "Lalo Kile"
+          },
+          {
+            "name": "Sayo"
+          },
+          {
+            "name": "Yemalogi Welele"
+          }
+        ]
+      },
+      {
+        "name": "North Shewa zone",
+        "district_subcities": [
+          {
+            "name": "Debre Libanos"
+          },
+          {
+            "name": "Hidebu Abote"
+          },
+          {
+            "name": "Sheno Town"
+          },
+          {
+            "name": "Abichu"
+          },
+          {
+            "name": "Aleltu"
+          },
+          {
+            "name": "Degem"
+          },
+          {
+            "name": "Fiche Town"
+          },
+          {
+            "name": "Gerar Jarso"
+          },
+          {
+            "name": "Hidabu Abote"
+          },
+          {
+            "name": "Jido"
+          },
+          {
+            "name": "Kembibit"
+          },
+          {
+            "name": "Kuyu"
+          },
+          {
+            "name": "Liban"
+          },
+          {
+            "name": "Wara Jarso"
+          },
+          {
+            "name": "Wuchale"
+          },
+          {
+            "name": "Yaya Gulele"
+          }
+        ]
+      },
+      {
+        "name": "Southwest Shewa  Zone",
+        "district_subcities": [
+          {
+            "name": "Dukam"
+          },
+          {
+            "name": "Amaya"
+          },
+          {
+            "name": "Becho"
+          },
+          {
+            "name": "Dawo"
+          },
+          {
+            "name": "Elu"
+          },
+          {
+            "name": "Kersana Malima"
+          },
+          {
+            "name": "Seden Sodo"
+          },
+          {
+            "name": "Sodo Dacha"
+          },
+          {
+            "name": "Tole"
+          },
+          {
+            "name": "Waliso"
+          },
+          {
+            "name": "Waliso Town"
+          },
+          {
+            "name": "Wanchi"
+          }
+        ]
+      },
+      {
+        "name": "West Arsi Zone",
+        "district_subcities": [
+          {
+            "name": "Arsi Negele Town"
+          },
+          {
+            "name": "Dodola Town"
+          },
+          {
+            "name": "Heben Arsi"
+          },
+          {
+            "name": "Wondo"
+          },
+          {
+            "name": "Adaba"
+          },
+          {
+            "name": "Arsi Negele"
+          },
+          {
+            "name": "Dodola"
+          },
+          {
+            "name": "Gedeb Asasa"
+          },
+          {
+            "name": "Kofele"
+          },
+          {
+            "name": "Kokosa"
+          },
+          {
+            "name": "Kore"
+          },
+          {
+            "name": "Naannawa Shashamane"
+          },
+          {
+            "name": "Nensebo"
+          },
+          {
+            "name": "Seraro"
+          },
+          {
+            "name": "Shala"
+          },
+          {
+            "name": "Shashamane Town"
+          }
+        ]
+      },
+      {
+        "name": "West Guji  zone",
+        "district_subcities": [
+          {
+            "name": "Birbirsa Kojowa"
+          },
+          {
+            "name": "Bule Hora Town"
+          },
+          {
+            "name": "Kercha Town"
+          },
+          {
+            "name": "Melka Soda"
+          },
+          {
+            "name": "Suro Barguda"
+          }
+        ]
+      },
+      {
+        "name": "West Hararghe Zone",
+        "district_subcities": [
+          {
+            "name": "Anchar"
+          },
+          {
+            "name": "Burka Dhintu"
+          },
+          {
+            "name": "Gumbi Bordode"
+          },
+          {
+            "name": "Hawi Gudina"
+          },
+          {
+            "name": "Oda Bultum"
+          },
+          {
+            "name": "Badessa Town"
+          },
+          {
+            "name": "Boke"
+          },
+          {
+            "name": "Char char"
+          },
+          {
+            "name": "Chiro Town"
+          },
+          {
+            "name": "Daru labu"
+          },
+          {
+            "name": "Doba"
+          },
+          {
+            "name": "Gamachis"
+          },
+          {
+            "name": "Guba Koricha"
+          },
+          {
+            "name": "Habro"
+          },
+          {
+            "name": "Kuni"
+          },
+          {
+            "name": "Masela"
+          },
+          {
+            "name": "Mieso"
+          },
+          {
+            "name": "Nannawa Chiro"
+          },
+          {
+            "name": "Tulo"
+          }
+        ]
+      },
+      {
+        "name": "West Shewa Zone",
+        "district_subcities": [
+          {
+            "name": "Bako Tibe"
+          },
+          {
+            "name": "Chobi"
+          },
+          {
+            "name": "Ejersa Lafo"
+          },
+          {
+            "name": "Ilu Galane"
+          },
+          {
+            "name": "Meta Welkite"
+          },
+          {
+            "name": "Tikur Enchini"
+          },
+          {
+            "name": "Abuna Ginde Beret"
+          },
+          {
+            "name": "Adda Berga"
+          },
+          {
+            "name": "Ambo Town"
+          },
+          {
+            "name": "Cheliya"
+          },
+          {
+            "name": "Dano"
+          },
+          {
+            "name": "Dendi"
+          },
+          {
+            "name": "Dire Enchini"
+          },
+          {
+            "name": "Ejerie"
+          },
+          {
+            "name": "Elfata"
+          },
+          {
+            "name": "Ginde Beret"
+          },
+          {
+            "name": "Gurraacha Enchini"
+          },
+          {
+            "name": "Jeldu"
+          },
+          {
+            "name": "Jibat"
+          },
+          {
+            "name": "Meta Robi"
+          },
+          {
+            "name": "Midakegn"
+          },
+          {
+            "name": "Naannawa Ambo"
+          },
+          {
+            "name": "Nono"
+          },
+          {
+            "name": "Toke Kutaye"
+          }
+        ]
+      },
+      {
+        "name": "West Welega Zone",
+        "district_subcities": [
+          {
+            "name": "Nedjo Town"
+          },
+          {
+            "name": "Qondala"
+          },
+          {
+            "name": "Leta Sibu"
+          },
+          {
+            "name": "Mendi Twon"
+          },
+          {
+            "name": "Ayra"
+          },
+          {
+            "name": "Babo Gambela"
+          },
+          {
+            "name": "Begi"
+          },
+          {
+            "name": "Boji Chokorsa"
+          },
+          {
+            "name": "Boji Dirmaji"
+          },
+          {
+            "name": "Genji"
+          },
+          {
+            "name": "Gimbi"
+          },
+          {
+            "name": "Gimbi Town"
+          },
+          {
+            "name": "Guliso"
+          },
+          {
+            "name": "Haru"
+          },
+          {
+            "name": "Homa"
+          },
+          {
+            "name": "Kondala"
+          },
+          {
+            "name": "Kiltu Kara"
+          },
+          {
+            "name": "Lalo Asabi"
+          },
+          {
+            "name": "Mana Sibu"
+          },
+          {
+            "name": "Nejo"
+          },
+          {
+            "name": "Nole Kaba"
+          },
+          {
+            "name": "Sayo Nole"
+          },
+          {
+            "name": "Yubdo"
+          }
+        ]
+      },
+      {
+        "name": "Oromia Special Zone Surrounding Finfinne zone",
+        "district_subcities": [
+          {
+            "name": "Akaki"
+          },
+          {
+            "name": "Bereh"
+          },
+          {
+            "name": "Burayu"
+          },
+          {
+            "name": "Koye Feche"
+          },
+          {
+            "name": "Mulo"
+          },
+          {
+            "name": "Sebeta Hawas"
+          },
+          {
+            "name": "Sendafa"
+          },
+          {
+            "name": "Sululta"
+          },
+          {
+            "name": "Walmara"
+          }
+        ]
+      },
+      {
+        "name": "Burayu Town",
+        "district_subcities": [
+          {
+            "name": "Burayu Town"
+          }
+        ]
+      },
+      {
+        "name": "Dukem Town",
+        "district_subcities": [
+          {
+            "name": "Dukem Town"
+          }
+        ]
+      },
+      {
+        "name": "East Bale Zone",
+        "district_subcities": [
+          {
+            "name": "Dawe Kechen"
+          },
+          {
+            "name": "Dawe Sarar Woreda"
+          },
+          {
+            "name": "Ginir Rural Woreda"
+          },
+          {
+            "name": "Ginir Town"
+          },
+          {
+            "name": "Gololcha Woreda"
+          },
+          {
+            "name": "Legehidh Woreda"
+          },
+          {
+            "name": "Rayitu Woreda"
+          },
+          {
+            "name": "Sewena Woreda"
+          }
+        ]
+      },
+      {
+        "name": "Gelan Town Special",
+        "district_subcities": [
+          {
+            "name": "Gelan Town"
+          }
+        ]
+      },
+      {
+        "name": "Lega Tafo Lega Dadhi Town",
+        "district_subcities": [
+          {
+            "name": "Lege Tafo Lege Dadi"
+          }
+        ]
+      },
+      {
+        "name": "Mojo Town",
+        "district_subcities": [
+          {
+            "name": "Mojo Town"
+          }
+        ]
+      },
+      {
+        "name": "Nekemte Town",
+        "district_subcities": [
+          {
+            "name": "Nekemte Town"
+          }
+        ]
+      },
+      {
+        "name": "Robe Town",
+        "district_subcities": []
+      },
+      {
+        "name": "Sululta Town",
+        "district_subcities": [
+          {
+            "name": "Sululta Town"
+          }
+        ]
+      },
+      {
+        "name": "Adama Special",
+        "district_subcities": [
+          {
+            "name": "Adama Special"
+          }
+        ]
+      },
+      {
+        "name": "Ambo Town",
+        "district_subcities": [
+          {
+            "name": "Ambo Town"
+          }
+        ]
+      },
+      {
+        "name": "Asella Town",
+        "district_subcities": [
+          {
+            "name": "Assela Town"
+          }
+        ]
+      },
+      {
+        "name": "Batu Town",
+        "district_subcities": [
+          {
+            "name": "Batu Town"
+          }
+        ]
+      },
+      {
+        "name": "Bishan Guracha Town",
+        "district_subcities": [
+          {
+            "name": "Bishan Gurach Town"
+          }
+        ]
+      },
+      {
+        "name": "Bishoftu Town",
+        "district_subcities": [
+          {
+            "name": "Bishoftu Town"
+          }
+        ]
+      },
+      {
+        "name": "Borena Zone",
+        "district_subcities": [
+          {
+            "name": "Das"
+          },
+          {
+            "name": "Dilo"
+          },
+          {
+            "name": "Dubluki"
+          },
+          {
+            "name": "Elwaye"
+          },
+          {
+            "name": "Guchi"
+          },
+          {
+            "name": "Miyo"
+          },
+          {
+            "name": "Taltale"
+          },
+          {
+            "name": "Wachile"
+          },
+          {
+            "name": "Yabelo Town"
+          }
+        ]
+      },
+      {
+        "name": "Sheger City",
+        "district_subcities": [
+          {
+            "name": "Furi"
+          },
+          {
+            "name": "Gelan Gudda"
+          },
+          {
+            "name": "Gefersa Guje"
+          },
+          {
+            "name": "Melka Nono"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sidama",
+    "city_zones": [
+      {
+        "name": "Sidama",
+        "district_subcities": [
+          {
+            "name": "Aleta Chuko Town Administration"
+          },
+          {
+            "name": "Aleta Chuko Woreda"
+          },
+          {
+            "name": "Aleta Wondo Woreda "
+          },
+          {
+            "name": "Bilate Zuria Woreda "
+          },
+          {
+            "name": "Bura Woreda "
+          },
+          {
+            "name": "Chabe Gambeltu Woreda "
+          },
+          {
+            "name": "Chire Woreda "
+          },
+          {
+            "name": "Chirone Woreda "
+          },
+          {
+            "name": "Daela Woreda "
+          },
+          {
+            "name": "Dara Otilcho Woreda "
+          },
+          {
+            "name": "Daya Town "
+          },
+          {
+            "name": "Derara Woreda"
+          },
+          {
+            "name": "Hawella Woreda "
+          },
+          {
+            "name": "Hoko Woreda "
+          },
+          {
+            "name": "Leku Town "
+          },
+          {
+            "name": "Shafamo Woreda "
+          },
+          {
+            "name": "Teticha Woreda "
+          },
+          {
+            "name": "Wondogenet Woreda "
+          },
+          {
+            "name": "Yirgalem Town Administration"
+          },
+          {
+            "name": "Aleta Wendo"
+          },
+          {
+            "name": "Arbegona"
+          },
+          {
+            "name": "Aroresa"
+          },
+          {
+            "name": "Bensa"
+          },
+          {
+            "name": "Bona Zuria"
+          },
+          {
+            "name": "Boricha"
+          },
+          {
+            "name": "Bursa"
+          },
+          {
+            "name": "Chere"
+          },
+          {
+            "name": "Chuko"
+          },
+          {
+            "name": "Dale"
+          },
+          {
+            "name": "Dara"
+          },
+          {
+            "name": "Gorche"
+          },
+          {
+            "name": "Hawassa Zuria"
+          },
+          {
+            "name": "Hula"
+          },
+          {
+            "name": "Loko Abaya"
+          },
+          {
+            "name": "Malga"
+          },
+          {
+            "name": "Shebedino"
+          },
+          {
+            "name": "Wensho"
+          },
+          {
+            "name": "Wondo Genet"
+          }
+        ]
+      },
+      {
+        "name": "Hawassa City Adminstration",
+        "district_subcities": [
+          {
+            "name": "Addis Ketema Sub City"
+          },
+          {
+            "name": "Bahel Adarash Sub City"
+          },
+          {
+            "name": "Hayik Dar Sub City"
+          },
+          {
+            "name": "Mehal Sub City"
+          },
+          {
+            "name": "Menhariya Sub City"
+          },
+          {
+            "name": "Misirak Sub City"
+          },
+          {
+            "name": "Tabor Sub City"
+          },
+          {
+            "name": "Tula Sub City"
+          },
+          {
+            "name": "Hawela Tula"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Somali Region",
+    "city_zones": [
+      {
+        "name": "Afder zone",
+        "district_subcities": [
+          {
+            "name": "Afder"
+          },
+          {
+            "name": "Bare"
+          },
+          {
+            "name": "Chereti"
+          },
+          {
+            "name": "Dolobay"
+          },
+          {
+            "name": "Elekere"
+          },
+          {
+            "name": "GodGod"
+          },
+          {
+            "name": "Hargelle"
+          },
+          {
+            "name": "Iligdheere"
+          },
+          {
+            "name": "Mirab Imi"
+          },
+          {
+            "name": "Raaso"
+          },
+          {
+            "name": "Qooxle"
+          }
+        ]
+      },
+      {
+        "name": "Dhawa Zone",
+        "district_subcities": [
+          {
+            "name": "Ley"
+          },
+          {
+            "name": "Hudet"
+          },
+          {
+            "name": "Mubaarak"
+          },
+          {
+            "name": "Qadhaadhumo"
+          }
+        ]
+      },
+      {
+        "name": "Dollo Zone",
+        "district_subcities": [
+          {
+            "name": "Boh"
+          },
+          {
+            "name": "Danot"
+          },
+          {
+            "name": "Daratole"
+          },
+          {
+            "name": "Gal-Hamur"
+          },
+          {
+            "name": "Geladin"
+          },
+          {
+            "name": "Lehel-Yucub"
+          },
+          {
+            "name": "Warder"
+          }
+        ]
+      },
+      {
+        "name": "Erer Zone",
+        "district_subcities": [
+          {
+            "name": "Fiq"
+          },
+          {
+            "name": "Lagahida"
+          },
+          {
+            "name": "Mayaa-muluqo"
+          },
+          {
+            "name": "Qubi"
+          },
+          {
+            "name": "Salahad"
+          },
+          {
+            "name": "Waangaay"
+          },
+          {
+            "name": "Xamaro"
+          },
+          {
+            "name": "Yaxoob"
+          }
+        ]
+      },
+      {
+        "name": "Fafan zone",
+        "district_subcities": [
+          {
+            "name": "Qabribayah"
+          },
+          {
+            "name": "Qabribayah Town"
+          },
+          {
+            "name": "Togochale City Admenistration"
+          },
+          {
+            "name": "Awbare"
+          },
+          {
+            "name": "Babille"
+          },
+          {
+            "name": "Goljano"
+          },
+          {
+            "name": "Harawo"
+          },
+          {
+            "name": "Haroorayso"
+          },
+          {
+            "name": "Harshin"
+          },
+          {
+            "name": "Jijiga"
+          },
+          {
+            "name": "Kebri Beyah special woreda"
+          },
+          {
+            "name": "Qooraan/Mulla"
+          },
+          {
+            "name": "Shabeeley"
+          },
+          {
+            "name": "Wajale special woreda"
+          },
+          {
+            "name": "Tuli Guled"
+          }
+        ]
+      },
+      {
+        "name": "Jarar Zone",
+        "district_subcities": [
+          {
+            "name": "Gashamo"
+          },
+          {
+            "name": "Degahbur Town"
+          },
+          {
+            "name": "Yoale"
+          },
+          {
+            "name": "Araarso"
+          },
+          {
+            "name": "Awaare"
+          },
+          {
+            "name": "Bilcil buur"
+          },
+          {
+            "name": "Bir-qod"
+          },
+          {
+            "name": "Daroor"
+          },
+          {
+            "name": "Degehabur"
+          },
+          {
+            "name": "Dhagaxmadow"
+          },
+          {
+            "name": "Dig"
+          },
+          {
+            "name": "Gunagado"
+          },
+          {
+            "name": "Misraq Gashamo"
+          },
+          {
+            "name": "Yoocaale"
+          }
+        ]
+      },
+      {
+        "name": "Korahe Zone",
+        "district_subcities": [
+          {
+            "name": "Goglo"
+          },
+          {
+            "name": "Kebridahar"
+          },
+          {
+            "name": "Lasdenkere"
+          },
+          {
+            "name": "Boodaley"
+          },
+          {
+            "name": "Ceel-Ogadeen"
+          },
+          {
+            "name": "Debeweyin"
+          },
+          {
+            "name": "Higloley"
+          },
+          {
+            "name": "Kebri Dahar special woreda"
+          },
+          {
+            "name": "Kudunbuur"
+          },
+          {
+            "name": "Laas-dhankayre"
+          },
+          {
+            "name": "Marsin"
+          },
+          {
+            "name": "Shekosh"
+          },
+          {
+            "name": "Shilavo"
+          }
+        ]
+      },
+      {
+        "name": "Liben zone",
+        "district_subcities": [
+          {
+            "name": "Bokolmayo"
+          },
+          {
+            "name": "Deka Softi"
+          },
+          {
+            "name": "Dolo Odo"
+          },
+          {
+            "name": "Filtu"
+          },
+          {
+            "name": "Goro Bekeksa"
+          },
+          {
+            "name": "Kersa Dula"
+          }
+        ]
+      },
+      {
+        "name": "Nogob Zone",
+        "district_subcities": [
+          {
+            "name": "Ayun"
+          },
+          {
+            "name": "Dihun"
+          },
+          {
+            "name": "Elweyne"
+          },
+          {
+            "name": "Gerbo"
+          },
+          {
+            "name": "Hararey/Xaraarey"
+          },
+          {
+            "name": "Hora-shagax"
+          },
+          {
+            "name": "Segeg"
+          }
+        ]
+      },
+      {
+        "name": "Shabelle Zone",
+        "district_subcities": [
+          {
+            "name": "East Imey"
+          },
+          {
+            "name": "Godey"
+          },
+          {
+            "name": "Gode Council"
+          },
+          {
+            "name": "Abaaqoorow"
+          },
+          {
+            "name": "Adadle"
+          },
+          {
+            "name": "Beercaano"
+          },
+          {
+            "name": "Danan"
+          },
+          {
+            "name": "Elele"
+          },
+          {
+            "name": "Ferfer"
+          },
+          {
+            "name": "Gode special woreda"
+          },
+          {
+            "name": "Imiberi"
+          },
+          {
+            "name": "Kelafo"
+          },
+          {
+            "name": "Mustahil"
+          }
+        ]
+      },
+      {
+        "name": "Sitti zone",
+        "district_subcities": [
+          {
+            "name": "Gota-Biki"
+          },
+          {
+            "name": "Hadagala"
+          },
+          {
+            "name": "Adigala"
+          },
+          {
+            "name": "Afdem"
+          },
+          {
+            "name": "Ayesha"
+          },
+          {
+            "name": "Bike"
+          },
+          {
+            "name": "Dambel"
+          },
+          {
+            "name": "Gablalu"
+          },
+          {
+            "name": "Shinile"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "South Ethiopia Region",
+    "city_zones": [
+      {
+        "name": "Gedeo Zone",
+        "district_subcities": [
+          {
+            "name": "Chelelektu Town "
+          },
+          {
+            "name": "Chorso"
+          },
+          {
+            "name": "Gedeb Town "
+          },
+          {
+            "name": "Rape"
+          },
+          {
+            "name": "Bule"
+          },
+          {
+            "name": "Yirgachefe Town "
+          },
+          {
+            "name": "Dila Town"
+          },
+          {
+            "name": "Dila Zuria"
+          },
+          {
+            "name": "Gedeb"
+          },
+          {
+            "name": "Kochere"
+          },
+          {
+            "name": "Wenago"
+          },
+          {
+            "name": "Yirgachefe"
+          }
+        ]
+      },
+      {
+        "name": "Ari zone",
+        "district_subcities": [
+          {
+            "name": "Jinka Town "
+          },
+          {
+            "name": "Baka Dawula"
+          },
+          {
+            "name": "Debub Ari"
+          },
+          {
+            "name": "Semen Ari"
+          },
+          {
+            "name": "Woba Ari"
+          }
+        ]
+      },
+      {
+        "name": "Gardula zone",
+        "district_subcities": [
+          {
+            "name": "Dirashe"
+          },
+          {
+            "name": "Gidole"
+          }
+        ]
+      },
+      {
+        "name": "Basiketo zone",
+        "district_subcities": [
+          {
+            "name": "Basketo"
+          },
+          {
+            "name": "Lasika"
+          }
+        ]
+      },
+      {
+        "name": "South Omo Zone",
+        "district_subcities": [
+          {
+            "name": "Dasenech"
+          },
+          {
+            "name": "Hamer"
+          },
+          {
+            "name": "Kuraz"
+          },
+          {
+            "name": "Nyangatom"
+          },
+          {
+            "name": "Selamago"
+          },
+          {
+            "name": "Malie"
+          },
+          {
+            "name": "Baka Dawela Ari"
+          },
+          {
+            "name": "Gelila Ketema Astedader"
+          },
+          {
+            "name": "Turmi Ketema Astedader"
+          },
+          {
+            "name": "Bako Gazer"
+          },
+          {
+            "name": "Bena Tsemay"
+          },
+          {
+            "name": "Jinka Ketema Astedader"
+          }
+        ]
+      },
+      {
+        "name": "Wolayita zone",
+        "district_subcities": [
+          {
+            "name": "Areka Town "
+          },
+          {
+            "name": "Bele Hawassa Town "
+          },
+          {
+            "name": "Bodit Town "
+          },
+          {
+            "name": "Gesuba Town "
+          },
+          {
+            "name": "Gununo Town"
+          },
+          {
+            "name": "Tebela Town "
+          },
+          {
+            "name": "Abala Abaya"
+          },
+          {
+            "name": "Bayra Koysha"
+          },
+          {
+            "name": "Boloso Bombe"
+          },
+          {
+            "name": "Boloso Sore"
+          },
+          {
+            "name": "Damot Gale"
+          },
+          {
+            "name": "Damot Pulasa"
+          },
+          {
+            "name": "Damot Weyde"
+          },
+          {
+            "name": "Diguna Fango"
+          },
+          {
+            "name": "Humbo"
+          },
+          {
+            "name": "Hobicha"
+          },
+          {
+            "name": "Kawo Koysha"
+          },
+          {
+            "name": "Kindo Didaye"
+          },
+          {
+            "name": "Kindo Koysha"
+          },
+          {
+            "name": "Offa"
+          },
+          {
+            "name": "Sodo (Town)"
+          },
+          {
+            "name": "Sodo Zuria"
+          },
+          {
+            "name": "Damot Sore"
+          },
+          {
+            "name": "Gununo Hamuse Ketema Astedader"
+          },
+          {
+            "name": "Bele Ketema Astedader"
+          }
+        ]
+      },
+      {
+        "name": "Gamo zone",
+        "district_subcities": [
+          {
+            "name": "Birbir Town "
+          },
+          {
+            "name": "Chencha Zuria"
+          },
+          {
+            "name": "Gacho Baba"
+          },
+          {
+            "name": "Garda Martha"
+          },
+          {
+            "name": "Gerese Town "
+          },
+          {
+            "name": "Gerese Zuriya Woreda"
+          },
+          {
+            "name": "Kamba Zuria"
+          },
+          {
+            "name": "Kogota"
+          },
+          {
+            "name": "Kutcha Zuria"
+          },
+          {
+            "name": "Selamber Town "
+          },
+          {
+            "name": "Dita"
+          },
+          {
+            "name": "Geze Gofa"
+          },
+          {
+            "name": "Kemba"
+          },
+          {
+            "name": "Kucha"
+          },
+          {
+            "name": "Melokoza"
+          },
+          {
+            "name": "Mirab Abaya"
+          },
+          {
+            "name": "Oyda"
+          },
+          {
+            "name": "Sawla Town"
+          },
+          {
+            "name": "Uba Debretsehay"
+          },
+          {
+            "name": "Zala"
+          },
+          {
+            "name": "Yirga Chefe"
+          },
+          {
+            "name": "Kochore"
+          },
+          {
+            "name": "Yirga Chefe City Admin"
+          },
+          {
+            "name": "Selam Ber Ketema Asetedader"
+          },
+          {
+            "name": "Qucha Alfa"
+          },
+          {
+            "name": "Dilla Zuria"
+          },
+          {
+            "name": "Arba Minch Town"
+          },
+          {
+            "name": "Arba Minch Zuria"
+          },
+          {
+            "name": "Bonke"
+          },
+          {
+            "name": "Boreda"
+          },
+          {
+            "name": "Chencha"
+          },
+          {
+            "name": "Demba Gofa"
+          },
+          {
+            "name": "Deramalo"
+          },
+          {
+            "name": "Wonago"
+          }
+        ]
+      },
+      {
+        "name": "Gofa zone",
+        "district_subcities": [
+          {
+            "name": "Bulike Town "
+          },
+          {
+            "name": "Denba Gofa"
+          },
+          {
+            "name": "Melegada"
+          },
+          {
+            "name": "Melekoza"
+          },
+          {
+            "name": "Oyida"
+          },
+          {
+            "name": "Sawla Town "
+          },
+          {
+            "name": "Zalla"
+          }
+        ]
+      },
+      {
+        "name": "Konso Zone",
+        "district_subcities": [
+          {
+            "name": "Segna Zuria"
+          },
+          {
+            "name": "Karat Twon "
+          },
+          {
+            "name": "Karat Zuria"
+          },
+          {
+            "name": "Kena"
+          },
+          {
+            "name": "Kolme Cluster"
+          }
+        ]
+      },
+      {
+        "name": "Korea zone",
+        "district_subcities": [
+          {
+            "name": "Amaro"
+          },
+          {
+            "name": "Kelle"
+          }
+        ]
+      },
+      {
+        "name": "Buriji zone",
+        "district_subcities": [
+          {
+            "name": "Soyama"
+          },
+          {
+            "name": "Raleyaa"
+          },
+          {
+            "name": "Burji Liyu Wereda"
+          },
+          {
+            "name": "Chulussa"
+          },
+          {
+            "name": "Kalicho"
+          },
+          {
+            "name": "Baraki"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "South West Ethiopia Peoples Region",
+    "city_zones": [
+      {
+        "name": "Bench Sheko zone",
+        "district_subcities": [
+          {
+            "name": "Dizu-Gedi"
+          },
+          {
+            "name": "Gide Bench Woreda"
+          },
+          {
+            "name": "Siz Town "
+          },
+          {
+            "name": "Bero"
+          },
+          {
+            "name": "Debub Bench"
+          },
+          {
+            "name": "Guraferda"
+          },
+          {
+            "name": "Meinit Goldiya"
+          },
+          {
+            "name": "Meinit Shasha"
+          },
+          {
+            "name": "Mizan Aman Town"
+          },
+          {
+            "name": "Semien Bench"
+          },
+          {
+            "name": "She Bench"
+          },
+          {
+            "name": "Sheko"
+          },
+          {
+            "name": "Former woredas"
+          },
+          {
+            "name": "Bench"
+          },
+          {
+            "name": "Meinit"
+          }
+        ]
+      },
+      {
+        "name": "Dawro zone",
+        "district_subcities": [
+          {
+            "name": "Gena"
+          },
+          {
+            "name": "Gesa Chare Ketema Astedader"
+          },
+          {
+            "name": "Disa Woreda"
+          },
+          {
+            "name": "Essara Woreda"
+          },
+          {
+            "name": "Gesa Town "
+          },
+          {
+            "name": "Kechi Woreda"
+          },
+          {
+            "name": "Mari Mansa Woreda"
+          },
+          {
+            "name": "Tarcha Town "
+          },
+          {
+            "name": "Tercha Zuria Woreda"
+          },
+          {
+            "name": "Zaba Gazo Woreda"
+          },
+          {
+            "name": "Gena Bosa"
+          },
+          {
+            "name": "Isara"
+          },
+          {
+            "name": "Loma"
+          },
+          {
+            "name": "Mareka"
+          },
+          {
+            "name": "Tocha"
+          },
+          {
+            "name": "Isara Tocha"
+          },
+          {
+            "name": "Loma Bosa"
+          },
+          {
+            "name": "Mareka Gena"
+          }
+        ]
+      },
+      {
+        "name": "Keffa zone",
+        "district_subcities": [
+          {
+            "name": "Adiyo Woreda"
+          },
+          {
+            "name": "Awurada City "
+          },
+          {
+            "name": "Deka City "
+          },
+          {
+            "name": "Goba woreda"
+          },
+          {
+            "name": "Shishinde City "
+          },
+          {
+            "name": "Shishoinde Woreda"
+          },
+          {
+            "name": "Wacha Town "
+          },
+          {
+            "name": "Bita"
+          },
+          {
+            "name": "Bonga Town"
+          },
+          {
+            "name": "Chena"
+          },
+          {
+            "name": "Cheta"
+          },
+          {
+            "name": "Decha"
+          },
+          {
+            "name": "Gesha"
+          },
+          {
+            "name": "Gewata"
+          },
+          {
+            "name": "Ginbo"
+          },
+          {
+            "name": "Menjiwo"
+          },
+          {
+            "name": "Sayilem"
+          },
+          {
+            "name": "Telo"
+          }
+        ]
+      },
+      {
+        "name": "Sheka zone",
+        "district_subcities": [
+          {
+            "name": "Masha Town "
+          },
+          {
+            "name": "Teppi Town "
+          },
+          {
+            "name": "Anderacha"
+          },
+          {
+            "name": "Masha"
+          },
+          {
+            "name": "Yeki"
+          },
+          {
+            "name": "Masha Anderacha"
+          }
+        ]
+      },
+      {
+        "name": "West Omo zone",
+        "district_subcities": [
+          {
+            "name": "Jemu Town "
+          },
+          {
+            "name": "Maji Tum Town Administratio"
+          },
+          {
+            "name": "Bachuma Town "
+          },
+          {
+            "name": "Gachit Woreda"
+          },
+          {
+            "name": "Gorigasha Woreda"
+          },
+          {
+            "name": "Maji"
+          },
+          {
+            "name": "Surma"
+          }
+        ]
+      },
+      {
+        "name": "Special woredas",
+        "district_subcities": [
+          {
+            "name": "Ameya Town "
+          },
+          {
+            "name": "Ameya Zuriya woreda"
+          },
+          {
+            "name": "Chida Town "
+          },
+          {
+            "name": "Ela Anchano Woreda"
+          },
+          {
+            "name": "Konta"
+          }
+        ]
+      },
+      {
+        "name": "Special zones",
+        "district_subcities": [
+          {
+            "name": "Mekelle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tigray",
+    "city_zones": [
+      {
+        "name": "East Tigray",
+        "district_subcities": [
+          {
+            "name": "Adigrat"
+          },
+          {
+            "name": "Atsbi Wenberta"
+          },
+          {
+            "name": "Ganta Afeshum"
+          },
+          {
+            "name": "Gulomahda"
+          },
+          {
+            "name": "Hawzen"
+          },
+          {
+            "name": "Irob"
+          },
+          {
+            "name": "Kilte Awulaelo"
+          },
+          {
+            "name": "Saesi Tsaedaemba"
+          },
+          {
+            "name": "Wukro"
+          }
+        ]
+      },
+      {
+        "name": "West Tigray",
+        "district_subcities": [
+          {
+            "name": "Setit Humra"
+          },
+          {
+            "name": "Kafta Humera"
+          },
+          {
+            "name": "Tsegede"
+          },
+          {
+            "name": "Welkait"
+          }
+        ]
+      },
+      {
+        "name": "South Tigray",
+        "district_subcities": [
+          {
+            "name": "Raya Alamata"
+          },
+          {
+            "name": "Alaje"
+          },
+          {
+            "name": "Alamata"
+          },
+          {
+            "name": "Endamekoni"
+          },
+          {
+            "name": "Korem"
+          },
+          {
+            "name": "Maychew"
+          },
+          {
+            "name": "Ofla"
+          },
+          {
+            "name": "Raya Azebo"
+          }
+        ]
+      },
+      {
+        "name": "South East Tigray",
+        "district_subcities": [
+          {
+            "name": "Dogua Tembien"
+          },
+          {
+            "name": "Enderta"
+          },
+          {
+            "name": "Hintalo Wajirat"
+          },
+          {
+            "name": "Saharti Samre"
+          }
+        ]
+      },
+      {
+        "name": "Central Tigray",
+        "district_subcities": [
+          {
+            "name": "Ahferom"
+          },
+          {
+            "name": "Merb Leke"
+          },
+          {
+            "name": "Rural Adwa"
+          },
+          {
+            "name": "Tanqua Abergele"
+          },
+          {
+            "name": "Adwa"
+          },
+          {
+            "name": "Adwa Town"
+          },
+          {
+            "name": "Axum"
+          },
+          {
+            "name": "Enticho"
+          },
+          {
+            "name": "Kola Tembien"
+          },
+          {
+            "name": "Abiy Addi"
+          },
+          {
+            "name": "Lailay Maychew"
+          },
+          {
+            "name": "Naeder Adet"
+          },
+          {
+            "name": "Tahtay Maychew"
+          },
+          {
+            "name": "Tanqua Millash"
+          },
+          {
+            "name": "Werie Lehe"
+          }
+        ]
+      },
+      {
+        "name": "North West Tigray",
+        "district_subcities": [
+          {
+            "name": "Asgede Tsimbla"
+          },
+          {
+            "name": "Lailay Adiyabo"
+          },
+          {
+            "name": "Medebay Zana"
+          },
+          {
+            "name": "Sheraro"
+          },
+          {
+            "name": "Shire Inda Selassie"
+          },
+          {
+            "name": "Tahtay Adiyabo"
+          },
+          {
+            "name": "Tahtay Koraro"
+          },
+          {
+            "name": "Tselemti"
+          },
+          {
+            "name": "Tsimbla"
+          }
+        ]
+      },
+      {
+        "name": "Mekelle",
+        "district_subcities": [
+          {
+            "name": "Adi Haki"
+          },
+          {
+            "name": "Ayder"
+          },
+          {
+            "name": "Hadnet"
+          },
+          {
+            "name": "Hawelti"
+          },
+          {
+            "name": "Qedamay Woyane"
+          },
+          {
+            "name": "Quiha"
+          },
+          {
+            "name": "Semen"
+          }
+        ]
+      }
+    ]
+  }
+]
