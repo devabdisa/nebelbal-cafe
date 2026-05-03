@@ -123,7 +123,7 @@ const moduleCreator = (rawName: string): void => {
 
   const localePayload: Record<string, Record<string, string>> = {
     [slug]: {
-      title: \`\${Name}\`,
+      title: Name,
     },
   };
 
@@ -134,8 +134,8 @@ const moduleCreator = (rawName: string): void => {
   writeFileSync(join(modulePath, 'validations', `${slug}Validation.ts`), validationTs);
 
   createDirectory(localesPath);
-  writeFileSync(join(localesPath, 'en.json'), \`\${JSON.stringify(localePayload, null, 2)}\\n\`);
-  writeFileSync(join(localesPath, 'am.json'), \`\${JSON.stringify(localePayload, null, 2)}\\n\`);
+  writeFileSync(join(localesPath, 'en.json'), `${JSON.stringify(localePayload, null, 2)}\n`);
+  writeFileSync(join(localesPath, 'am.json'), `${JSON.stringify(localePayload, null, 2)}\n`);
 
   const enTsPath = join(rootLocalesPath, 'en.ts');
   const amTsPath = join(rootLocalesPath, 'am.ts');
@@ -156,13 +156,13 @@ const moduleCreator = (rawName: string): void => {
   writeFileSync(enTsPath, enTs);
   writeFileSync(amTsPath, amTs);
 
-  console.log(\`Module "\${slug}" created under src/modules/\${slug}\`);
-  console.log(\`Locales: src/locales/\${slug}/en.json & am.json (merged via en.ts / am.ts)\`);
+  console.log(`Module "${slug}" created under src/modules/${slug}`);
+  console.log(`Locales: src/locales/${slug}/en.json & am.json (merged via en.ts / am.ts)`);
 };
 
 const moduleName = process.argv[2];
 if (!moduleName) {
-  console.error('Usage: bun run create-module <module-name> (or npm run module <module-name>)');
+  console.error('Usage: npm run module <module-name>');
   console.error('Example: npm run module product');
   process.exit(1);
 }
