@@ -3,7 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "set NODE_ENV=development && nodemon server.js",
+    "module": "node dev/scripts/moduleCreator.js",
+    "seed-db": "node dev/scripts/seed_migrateDB.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:reset": "prisma migrate reset",
+    "prisma:studio": "prisma studio",
+    "seed-clear": "node dev/scripts/seed_migrateDB.js --clear",
+    "dev:electron": "concurrently \"npm run dev\" \"electron .\"",
+    "build:electron": "electron-builder",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux",
+    "pack:electron": "electron-builder --dir",
+    "dev2": "concurrently \"nodemon src/server.js\" \"electron .\"",
+    "electron": "electron ."
   },
   "author": "",
   "license": "ISC",
@@ -50,5 +66,10 @@
     "socket.io": "^4.8.3",
     "ua-parser-js": "^2.0.9",
     "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.21.0"
   }
 }

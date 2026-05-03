@@ -11,3 +11,494 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+
+// ===========================================
+// SERVICE PROVIDER MANAGEMENT
+// ===========================================
+
+model ServiceProviderUser {
+  id       String  @id @default(cuid())
+  email    String  @unique
+  fullName String?
+  phone    String?
+  isActive Boolean @default(true)
+
+  passwordHash String?
+
+  organizations Organization[] @relation("OwnerOrganizations")
+  activityLogs  ActivityLog[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("service_provider_users")
+}
+
+// ===========================================
+// ORGANIZATION MANAGEMENT
+// ===========================================
+
+model Organization {
+  id          String  @id @default(cuid())
+  ownerUserId String
+
+  name        String
+  slug        String
+  type        OrganizationType @default(CAFE)
+  description String?
+  phone       String?
+  email       String?
+  address     String?
+  logoUrl     String?
+  isActive    Boolean @default(true)
+
+  owner ServiceProviderUser @relation("OwnerOrganizations", fields: [ownerUserId], references: [id], onDelete: Restrict)
+
+  users          OrganizationUser[]
+  roles          OrganizationRole[]
+  permissions    OrganizationPermission[]
+  tables         Table[]
+  menuCategories MenuCategory[]
+  menuItems      MenuItem[]
+  orders         Order[]
+  shifts         Shift[]
+  activityLogs   ActivityLog[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([ownerUserId, slug])
+  @@index([ownerUserId])
+  @@map("organizations")
+}
+
+enum OrganizationType {
+  CAFE
+  RESTAURANT
+  HOTEL
+  OTHER
+}
+
+// ===========================================
+// ORGANIZATION STAFF / USERS
+// ===========================================
+
+model OrganizationUser {
+  id    String @id @default(cuid())
+  orgId String
+
+  email    String
+  fullName String
+  phone    String?
+  avatarUrl String?
+  staffType StaffType @default(WAITER)
+  isActive Boolean @default(true)
+
+  passwordHash String?
+
+  organization Organization @relation(fields: [orgId], references: [id], onDelete: Cascade)
+
+  userRoles       OrganizationUserRole[]
+  userPermissions OrganizationUserPermission[]
+
+  assignedTables Table[] @relation("AssignedWaiterTables")
+  waiterOrders   Order[] @relation("WaiterOrders")
+  createdOrders  Order[] @relation("CreatedOrders")
+
+  shiftAssignments ShiftAssignment[]
+  activityLogs      ActivityLog[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([orgId, email])
+  @@index([orgId])
+  @@map("organization_users")
+}
+
+enum StaffType {
+  ADMIN
+  MANAGER
+  WAITER
+  CHEF
+  CASHIER
+}
+
+// ===========================================
+// ROLE & PERMISSION MANAGEMENT
+// ===========================================
+
+model OrganizationRole {
+  id    String @id @default(cuid())
+  orgId String
+
+  name        String
+  description String?
+  isDefault   Boolean @default(false)
+
+  organization Organization @relation(fields: [orgId], references: [id], onDelete: Cascade)
+
+  rolePermissions OrganizationRolePermission[]
+  userRoles       OrganizationUserRole[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([orgId, name])
+  @@index([orgId])
+  @@map("organization_roles")
+}
+
+model OrganizationPermission {
+  id    String @id @default(cuid())
+  orgId String
+
+  name        String
+  key         String
+  description String?
+
+  organization Organization @relation(fields: [orgId], references: [id], onDelete: Cascade)
+
+  rolePermissions OrganizationRolePermission[]
+  userPermissions OrganizationUserPermission[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([orgId, key])
+  @@index([orgId])
+  @@map("organization_permissions")
+}
+
+model OrganizationRolePermission {
+  id           String @id @default(cuid())
+  roleId       String
+  permissionId String
+
+  role       OrganizationRole       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission OrganizationPermission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([roleId, permissionId])
+  @@index([permissionId])
+  @@map("organization_role_permissions")
+}
+
+model OrganizationUserRole {
+  id     String @id @default(cuid())
+  userId String
+  roleId String
+
+  user OrganizationUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role OrganizationRole @relation(fields: [roleId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([userId, roleId])
+  @@index([roleId])
+  @@map("organization_user_roles")
+}
+
+model OrganizationUserPermission {
+  id           String @id @default(cuid())
+  userId       String
+  permissionId String
+
+  user       OrganizationUser       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  permission OrganizationPermission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([userId, permissionId])
+  @@index([permissionId])
+  @@map("organization_user_permissions")
+}
+
+// ===========================================
+// TABLE MANAGEMENT
+// ===========================================
+
+model Table {
+  id    String @id @default(cuid())
+  orgId String
+
+  name             String
+  capacity         Int      @default(2)
+  section          String?
+  status           TableStatus @default(AVAILABLE)
+  assignedWaiterId String?
+
+  organization Organization @relation(fields: [orgId], references: [id], onDelete: Cascade)
+
+  assignedWaiter OrganizationUser? @relation("AssignedWaiterTables", fields: [assignedWaiterId], references: [id], onDelete: SetNull)
+
+  orders Order[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([orgId, name])
+  @@index([orgId])
+  @@index([assignedWaiterId])
+  @@map("tables")
+}
+
+enum TableStatus {
+  AVAILABLE
+  OCCUPIED
+  RESERVED
+  NEEDS_CLEANING
+  OUT_OF_SERVICE
+}
+
+// ===========================================
+// MENU MANAGEMENT
+// ===========================================
+
+model MenuCategory {
+  id    String @id @default(cuid())
+  orgId String
+
+  name        String
+  description String?
+  imageUrl     String?
+  sortOrder   Int     @default(0)
+  isActive    Boolean @default(true)
+
+  organization Organization @relation(fields: [orgId], references: [id], onDelete: Cascade)
+
+  items MenuItem[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([orgId, name])
+  @@index([orgId])
+  @@map("menu_categories")
+}
+
+model MenuItem {
+  id         String @id @default(cuid())
+  orgId      String
+  categoryId String
+
+  name            String
+  description     String?
+  price           Decimal @db.Decimal(10, 2)
+  imageUrl        String?
+  preparationTime Int?
+  isAvailable     Boolean @default(true)
+  isActive        Boolean @default(true)
+
+  organization Organization @relation(fields: [orgId], references: [id], onDelete: Cascade)
+  category     MenuCategory @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+
+  orderItems OrderItem[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([orgId, name])
+  @@index([orgId])
+  @@index([categoryId])
+  @@map("menu_items")
+}
+
+// ===========================================
+// ORDER MANAGEMENT
+// ===========================================
+
+model Order {
+  id    String @id @default(cuid())
+  orgId String
+
+  tableId     String?
+  waiterId    String?
+  createdById String?
+
+  orderNumber String
+  source      OrderSource @default(WAITER_MANUAL)
+  status      OrderStatus @default(PENDING)
+
+  subtotal    Decimal @default(0) @db.Decimal(10, 2)
+  taxAmount   Decimal @default(0) @db.Decimal(10, 2)
+  discount    Decimal @default(0) @db.Decimal(10, 2)
+  totalAmount Decimal @default(0) @db.Decimal(10, 2)
+
+  paymentStatus PaymentStatus @default(UNPAID)
+  paymentMethod PaymentMethod?
+
+  customerName  String?
+  customerPhone String?
+  customerNote  String?
+  internalNote  String?
+
+  organization Organization @relation(fields: [orgId], references: [id], onDelete: Cascade)
+
+  table Table? @relation(fields: [tableId], references: [id], onDelete: SetNull)
+
+  waiter OrganizationUser? @relation("WaiterOrders", fields: [waiterId], references: [id], onDelete: SetNull)
+
+  createdBy OrganizationUser? @relation("CreatedOrders", fields: [createdById], references: [id], onDelete: SetNull)
+
+  items OrderItem[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  paidAt    DateTime?
+  cancelledAt DateTime?
+
+  @@unique([orgId, orderNumber])
+  @@index([orgId])
+  @@index([tableId])
+  @@index([waiterId])
+  @@index([createdById])
+  @@index([status])
+  @@map("orders")
+}
+
+model OrderItem {
+  id         String @id @default(cuid())
+  orderId    String
+  menuItemId String
+
+  quantity Int @default(1)
+
+  unitPrice  Decimal @db.Decimal(10, 2)
+  totalPrice Decimal @db.Decimal(10, 2)
+
+  status OrderItemStatus @default(PENDING)
+
+  note String?
+
+  order    Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  menuItem MenuItem @relation(fields: [menuItemId], references: [id], onDelete: Restrict)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([orderId])
+  @@index([menuItemId])
+  @@map("order_items")
+}
+
+enum OrderSource {
+  CUSTOMER_QR
+  WAITER_MANUAL
+  CASHIER_MANUAL
+}
+
+enum OrderStatus {
+  PENDING
+  APPROVED
+  PREPARING
+  READY
+  SERVED
+  PAID
+  CANCELLED
+}
+
+enum OrderItemStatus {
+  PENDING
+  PREPARING
+  READY
+  SERVED
+  CANCELLED
+}
+
+enum PaymentStatus {
+  UNPAID
+  PARTIALLY_PAID
+  PAID
+  REFUNDED
+}
+
+enum PaymentMethod {
+  CASH
+  CARD
+  MOBILE_MONEY
+  BANK_TRANSFER
+  OTHER
+}
+
+// ===========================================
+// SHIFT MANAGEMENT
+// ===========================================
+
+model Shift {
+  id    String @id @default(cuid())
+  orgId String
+
+  name      String
+  startTime DateTime
+  endTime   DateTime
+  isActive  Boolean @default(true)
+
+  organization Organization @relation(fields: [orgId], references: [id], onDelete: Cascade)
+
+  assignments ShiftAssignment[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([orgId, name])
+  @@index([orgId])
+  @@map("shifts")
+}
+
+model ShiftAssignment {
+  id      String @id @default(cuid())
+  shiftId String
+  userId  String
+
+  shift Shift            @relation(fields: [shiftId], references: [id], onDelete: Cascade)
+  user  OrganizationUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([shiftId, userId])
+  @@index([userId])
+  @@map("shift_assignments")
+}
+
+// ===========================================
+// ACTIVITY LOGGING
+// ===========================================
+
+model ActivityLog {
+  id    String @id @default(cuid())
+  orgId String?
+
+  serviceProviderUserId String?
+  organizationUserId    String?
+
+  userType    ActivityUserType
+  action      String
+  entityType  String?
+  entityId    String?
+  description String?
+  metadata    Json?
+
+  organization Organization? @relation(fields: [orgId], references: [id], onDelete: SetNull)
+
+  serviceProviderUser ServiceProviderUser? @relation(fields: [serviceProviderUserId], references: [id], onDelete: SetNull)
+
+  organizationUser OrganizationUser? @relation(fields: [organizationUserId], references: [id], onDelete: SetNull)
+
+  createdAt DateTime @default(now())
+
+  @@index([orgId])
+  @@index([serviceProviderUserId])
+  @@index([organizationUserId])
+  @@index([entityType, entityId])
+  @@map("activity_logs")
+}
+
+enum ActivityUserType {
+  SERVICE_PROVIDER
+  ORGANIZATION_USER
+  SYSTEM
+}
